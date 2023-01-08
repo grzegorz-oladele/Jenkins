@@ -1,5 +1,5 @@
 pipeline  {
-    agent any
+    agent [any docker-agent-jenkins-project]
     stages {
         stage('Build image') {
             steps {
